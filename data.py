@@ -16,7 +16,7 @@ def dbconnect():
         host=sql_host,
         user="root",
         password="password",
-        database="fca")
+        database="fcaproject")
 
 
 def log_to_db(action, parameter, status):

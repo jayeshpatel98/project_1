@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
             NEXUS_LOGIN=credentials('NEXUS_LOGIN')
+    }
     stages {
       stage('build') {
           steps {
@@ -15,5 +16,7 @@ pipeline {
         }
     }
     stage('deploy') {
+}
+}
 }
 }

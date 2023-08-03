@@ -10,4 +10,8 @@ pipeline {
     
     }
     stage('deploy') {
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 06bbc90c1b717b90171cab39cd178e0197e4637c

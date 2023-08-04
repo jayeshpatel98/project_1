@@ -41,7 +41,14 @@ Then, it was important to configure Nexus for docker. Two repositories were crea
 The virtual machines provided by QA were then configured using docker commands in the CMD 
 Using Jenkins, a freestyle project was set up which ran Bash commands to connect to the local git repository storing the code
 A pipeline was also created using Jenkins which allowed me to automate the entire process and running of app.py
+
+
+
 Configuration of Jenkins included linking this to Nexus and the git repositories to enable it to access these 
 A Jenkins file was also created and stored on the Git repo, allowing Docker to build images and store within the containers 
+
+[Screenshots.docx](https://github.com/jayeshpatel98/project_1/files/12261581/Screenshots.docx)
+
+
 
 

@@ -1,3 +1,18 @@
+# risk assessment 
+
+Several risks were identified during this project which are listed below:
+  App not being needed - (unlikely but could be problematic if it was the case, wasted resources and costs)
+  VM for app stops functioning (low risk, high impact if happens, would need to create a new VM)
+  VSCode stops connecting to VM (medium risk, medium impact as could use Git repository to use another editor)
+  Jenkins VM stops functioning (low risk but would be a high short term impact. Would need to save code for redeployment later)
+  DB stops functioning (low risk but would be problematic. would need to back up and redeploy later)
+  Database hacked (low risk but high impact, data has been encrypted to protect this)
+  VM not being powerful enough (medium risk due to number of applications and containers running but QA have ensured this not to be an issue)
+  Failure of container and services (medium risk but would cause application and auomtation failures, therefore monitored at every stage to ensure this does not happen)
+
+
+
+
 # project_1
 
 The purpose of Project 1 was to create a remote backup automation application which can be used remotely via HTTP. 
